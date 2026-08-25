@@ -1,49 +1,55 @@
 body {
-  font-family: Arial, sans-serif;/ * ตั้งค่าฟอนต์หลัก * /
-  line-height: 1.6; / * ระยะห่างระหว่างบรรทัดเพื่อให้ง่ายต่อการอ่าน * /
-  margin: 0
-  padding: 0
-  background-color: #f4f4f4; / * สีพื้นหลังของเว็บ * /
-  color: #333; / * สีตัวอักษรหลัก * /
-}
-header {
-    blackgroung: #4CAF50; / * สีพื่นหลังของส่วนหัว * /
-    color:white; / * สีข้อความ * /
-    padding: 20px 0; / * ระยะห่างด้านบนและล่าง * /
-    text-align: center; / * จัดข้อความถึงกลาง * /
-  }
-
-header h1 {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
   margin: 0;
-}
-
-header p {
-  margig: 5px 0 0; / * ตั้งค่าระยะห่างของข้อความรอง * /
-}
-section {
-  padding: 20px;
-  margin: 20px auto;
-  max-width: 800px; / * จํากัดความกว้างของเนื้อหา * /
-  background: white; / * พื้นหลังสีขาว * /
-  border-radius: 8px; / * ทําให้ขอบมน * /
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); / * เพิ่มเงาเบา ๆ * /
-}
-h2 {
-  color: #4CAF50; / *สีของหัวข้อ* /
-}
-project {
-  margin-bottom: 20px;
-}
-project h3 {
-  margin: 0 0 10px; 
+  padding: 0;
+  background-color: #304e6e;
   color: #333;
 }
+header {
+   background:#2121b5;
+   color: white;
+   padding: 20px 0;
+   text-align: center;
+}
+header h1 {
+    margin:0;
+}
+header p {
+   margin: 5px 0 0;
+}
+section {
+   padding: 20px;
+   margin: 20px auto;
+   max-width: 800px;
+   background: white;
+   border-radius: 8px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+  color:#b0192f;
+}
+.project {
+    margin-bottom: 20px;
+}
+.project h3 {
+    margin: 0 0 10px;
+    color: #333;
+}
+ul { 
+    list-style-type: square;
+    padding-left: 20px;
+}
 footer {
-  text-align: center;
-  padding: 10px 0;
-  background: #333; / * สีพื้นหลังเข้ม * /
-  color:white;
-  margin-top: 20px;
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: white;
+    margin-top: 20px;
+}
+footer a {
+ color: #b39ddb;
+ text-decoration: none;
 }
   
   
